@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>Stefan Ciubotaru</title>
+        <link rel="stylesheet" type="text/css" href="./css/portfolio.css">
+        <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png">
+        <link rel="manifest" href="./favicon_io/site.webmanifest">
+    </head>
+        <body class="Background">
+
+            <!--Navbar-->
+            <div class="Navbar">
+                <a class="active" href="#Home">Home</a>
+                <a href="#About">About</a>
+                <a href="#Github">Github</a>
+                <a href="#Contact">Contact</a>
+            </div>
+            <br>
+            <br>
+
+            <!--Background video-->
+            <div id="Home">
+                <video autoplay muted loop id="Typing_Video">
+                    <source src="./video/typing.mp4" type="video/mp4">
+                    <!--Display message if video fails to run-->
+                    Your browser dose not support HTML5 video.
+                </video>
+            </div>
+            <!--Video text-->
+            <div class="Video_Text">
+                <h1 class="white-text">Stefan's Portfolio</h1>
+                <strong>
+                    <p class="center">
+                        <q>In some ways, programming is like painting. You start with a blank canvas and certain basic raw materials.
+                            <br>You use a combination of science, art, and craft to determine what to do with them.
+                        </q>
+                        <br> -Andrew Hunt
+                        <br>
+                    </p>
+                    <p class="center white-text">Hi, my name is Stefan. Welcome to my portfolio website. Here you'll be able to find more about my background and expirience.
+                    <br>
+                    <br>Thanks for stopping by!
+                    </p>
+                    
+                </strong>
+            </div>
+
+            <!--About section-->
+            <div class="Row" id="About">
+                <div class="Column_2">
+                    <img src="./images/Office_Col_3-23_Web-1.jpeg" alt="">
+                </div>
+                <div class="Column_1">
+                    <h1>About</h1>
+                    <p>I am a software developer who loves to code! As a father of two, I enjoy to spend time with my family and traveling.
+                        <br>
+                        <br>I am a graduate of <a href="https://www.learncodinganywhare.com" target="_blank">The Tech Academy</a>'s Software Development Boot Camp, and trained and expirienced in the following web wnd programming languages: HTML, CSS, JavaScript, SQL, C# and more.
+                        <br>
+                        <br>I am a full-stack developer and would love to work with you on your project. <a href="#Contact">Contact</a> me below!
+                    </p>
+                </div>
+            </div>
+
+            <!--GitHub section-->
+            <div class="Row" id="GitHub">
+                <div class="Column_1">
+                    <h1>GitHub</h1>
+                    <p class="center">
+                        You can view my coding projests on my GitHub profile here:
+                        <br>
+                        <p class="center"><a href="https://github.com/stefanciu" target="_blank">Stefan GitHub</a></p>
+                    </p>
+                </div>
+                <div class="Column_2">
+                    <a href="https://github.com/stefanciu" target="_blank"><img src="./images/pexels-fauxels-3183197.jpg" alt="Image"></a> 
+                </div>
+            </div>
+
+            <!--Contact section-->
+            <div class="Row" id="Contact">
+                <div class="Column_2 Column_tall">
+                    <img src="./images/istockphoto-1018925188-612x612.jpeg" alt="Mail_image">
+                </div>
+                <div class="Column_1 Column_tall">
+                    <h1>Contact</h1>
+                    <form action="https://formspree.io/f/mayzzvnj" method="post">
+                        <label>Name:</label>
+                            <input type="text" placeholder="Please enter your name here">
+                        <label>Email:</label>    
+                            <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                        <label>Message:</label>
+                            <input type="text" name="Message" id="Message" placeholder="Please write your message here">
+                            <input type="submit" value="SUBMIT">
+                    </form>
+                </div>
+            </div>
+
+            <!--Footer section-->
+            <footer>
+                <p>
+                    <p class="center"></p> <a href="https://learncodinganywhare.com" target="_blank">The Tech Academy</a>
+                    <br>    
+                </p>
+            </footer>
+        </body>
+</html>
